@@ -42,7 +42,7 @@ class Task2 {
                     }
                 } catch (InputMismatchException e) {
                     System.out.println("Invalid input. Please enter a valid number.");
-                    sc.next(); // clear the invalid input
+                    sc.next(); 
                 }
             }
         }
